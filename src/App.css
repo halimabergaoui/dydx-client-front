@@ -1,0 +1,48 @@
+/* App.css */
+
+body {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+}
+
+.App {
+  max-width: 960px;
+  margin: auto;
+  background: white;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.AppBar {
+  background-color: #1976d2; /* Primary color */
+}
+
+.Tabs {
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.TabPanel {
+  padding: 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.Button {
+  background-color: #1976d2; /* Primary color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  transition: background-color 0.3s ease;
+}
+
+.Button:hover {
+  background-color: #115293;
+}
